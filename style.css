@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap");
+body {
+  font-family: "Kanit", monospace;
+  min-height: 98vh;
+  background-image: url("https://img.elo7.com.br/product/original/3BBF442/caneca-harry-potter-as-reliquias-da-morte.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #8d8d8d50;
+  width: 600px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.page-title {
+  font-family: "Kanit", sans-serif;
+  font-size: 54px;
+  color: #f5f5f6;
+  margin: 5px 0;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #0096a5;
+  color: #f2f2f2;
+  transition: 0.5s;
+}
+
+h2 {
+  color: #f5f5f6;
+}
+h3 {
+  color:f5f5f6;
+    background-color: #8d8d8d50;
+  width: 600px;
+  text-align: center-top;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+#carta-jogador {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 1.5rem;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.opcoes {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cartao {
+  font-family: Kanit", monospace;
+  height: 300px;
+  width: 220px;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/993/781/167/harry-potter-reliques-artwork-movies-wallpaper-preview.jpg");
+  background-size: 150%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0 1rem;
+}
+
+.cartao__imagem {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #363636;
+}
+
+.cartao__info {
+  margin-top: 0.75rem;
+  height: 130px;
+  width: 100%;
+  background-color: #808080;
+  border: 1px solid #363636;
+}
+
+.cartao__info--novo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  height: 30px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0;
+}
+
+.info__titulo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.info__atributos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  height: 30px;
+  margin-left: 0.5rem;
+}
+
+.into__atributos input {
+  margin: 0;
+}
+
+.atributo__valor {
+  margin-right: 1rem;
+}
+
+.resultado {
+  font-size: 18px;
+}
